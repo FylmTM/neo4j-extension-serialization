@@ -10,6 +10,5 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>neo4j-extension-kryo-dto</artifactId>
-
-
+    <packaging>jar</packaging>
 </project>

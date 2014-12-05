@@ -7,10 +7,32 @@
     <groupId>me.vrublevsky</groupId>
     <artifactId>neo4j-extension-kryo</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+
     <modules>
         <module>neo4j-extension-kryo-core</module>
         <module>neo4j-extension-kryo-dto</module>
     </modules>
 
-    <packaging>pom</packaging>
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+        <target.java.version>1.7</target.java.version>
+        <source.java.version>1.7</source.java.version>
+    </properties>
+
+    <build>
+        <pluginManagement>
+            <plugins>
+                <plugin>
+                    <artifactId>maven-compiler-plugin</artifactId>
+                    <version>3.1</version>
+                    <configuration>
+                        <source>${target.java.version}</source>
+                        <target>${source.java.version}</target>
+                    </configuration>
+                </plugin>
+            </plugins>
+        </pluginManagement>
+    </build>
 </project>
