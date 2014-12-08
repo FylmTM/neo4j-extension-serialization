@@ -1,0 +1,7 @@
+{
+    "statements": [
+        {
+            "statement": "MATCH (a)-[:ACTED_IN]->(m)<-[:DIRECTED]-(d) RETURN a,m,d;"
+        }
+    ]
+}

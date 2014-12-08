@@ -34,6 +34,3 @@ application.properties
 # Windows binaries
 *.exe
 *.dll
-
-# Misc
-/bin/*
