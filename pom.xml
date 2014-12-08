@@ -12,6 +12,7 @@
     <modules>
         <module>neo4j-extension-serialization-kryo</module>
         <module>neo4j-extension-serialization-kryo-dto</module>
+        <module>neo4j-extension-serialization-bson</module>
     </modules>
 
     <properties>

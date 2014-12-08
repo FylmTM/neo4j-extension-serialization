@@ -9,9 +9,9 @@ Let's take movie graph, that Neo4j offers for fresh database installation and do
 
 Type               | Request time
 ------------------ | -------------
-**Default, JSON**  | ~140ms
+**Default, JSON**  | ~130ms
 **Custom, Kryo**   | ~30ms
-**Custom, BSON**   | TODO
+**Custom, BSON**   | ~30ms
 
 Note: You can find all test shell scripts and query in `bin` directory.
 
@@ -26,5 +26,7 @@ Install:
 # neo4j-server.properties
 
 # For Kryo
-org.neo4j.server.thirdparty_jaxrs_classes=me.vrublevsky.neo4j.extension.serialization.kryo.rest=/unmanaged/serialization/kryo
+org.neo4j.server.thirdparty_jaxrs_classes=me.vrublevsky.neo4j.extension.serialization.kryo.rest=/unmanaged/kryo
+# For BSON
+org.neo4j.server.thirdparty_jaxrs_classes=me.vrublevsky.neo4j.extension.serialization.bson.rest=/unmanaged/bson
 ```

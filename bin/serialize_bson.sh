@@ -11,5 +11,5 @@ curl -i -XPOST \
     time_start_transfer=%{time_starttransfer}
     time_total=%{time_total}
     " \
-    http://127.0.0.1:7474/unmanaged/kryo/transaction/commit
+    http://127.0.0.1:7474/unmanaged/bson/transaction/commit
 
