@@ -1,8 +1,8 @@
-package me.vrublevsky.neo4j.extension.kryo.serialization;
+package me.vrublevsky.neo4j.extension.serialization.kryo;
 
 import com.esotericsoftware.kryo.Kryo;
 import com.esotericsoftware.kryo.io.Output;
-import me.vrublevsky.neo4j.extension.kryo.dto.RowDTO;
+import me.vrublevsky.neo4j.extension.serialization.kryo.dto.RowDTO;
 import org.apache.commons.pool2.ObjectPool;
 import org.apache.commons.pool2.impl.SoftReferenceObjectPool;
 import org.neo4j.cypher.javacompat.ExecutionEngine;

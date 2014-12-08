@@ -1,4 +1,4 @@
-package me.vrublevsky.neo4j.extension.kryo.dto;
+package me.vrublevsky.neo4j.extension.serialization.kryo.dto;
 
 import java.util.HashMap;
 import java.util.Map;

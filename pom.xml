@@ -5,13 +5,13 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>me.vrublevsky</groupId>
-    <artifactId>neo4j-extension-kryo</artifactId>
+    <artifactId>neo4j-extension-serialization</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>pom</packaging>
 
     <modules>
-        <module>neo4j-extension-kryo-core</module>
-        <module>neo4j-extension-kryo-dto</module>
+        <module>neo4j-extension-serialization-kryo</module>
+        <module>neo4j-extension-serialization-kryo-dto</module>
     </modules>
 
     <properties>

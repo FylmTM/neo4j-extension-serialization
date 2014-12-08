@@ -1,6 +1,8 @@
-package me.vrublevsky.neo4j.extension.kryo.serialization;
+package me.vrublevsky.neo4j.extension.serialization.kryo;
 
-import me.vrublevsky.neo4j.extension.kryo.dto.*;
+import me.vrublevsky.neo4j.extension.serialization.kryo.dto.*;
+import me.vrublevsky.neo4j.extension.serialization.kryo.dto.NodeDTO;
+import me.vrublevsky.neo4j.extension.serialization.kryo.dto.RelationshipDTO;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

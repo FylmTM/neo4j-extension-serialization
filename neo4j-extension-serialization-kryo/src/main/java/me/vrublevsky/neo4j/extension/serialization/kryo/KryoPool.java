@@ -1,9 +1,9 @@
-package me.vrublevsky.neo4j.extension.kryo.serialization;
+package me.vrublevsky.neo4j.extension.serialization.kryo;
 
 import com.esotericsoftware.kryo.Kryo;
-import me.vrublevsky.neo4j.extension.kryo.dto.NodeDTO;
-import me.vrublevsky.neo4j.extension.kryo.dto.RelationshipDTO;
-import me.vrublevsky.neo4j.extension.kryo.dto.RowDTO;
+import me.vrublevsky.neo4j.extension.serialization.kryo.dto.NodeDTO;
+import me.vrublevsky.neo4j.extension.serialization.kryo.dto.RelationshipDTO;
+import me.vrublevsky.neo4j.extension.serialization.kryo.dto.RowDTO;
 import org.apache.commons.pool2.BasePooledObjectFactory;
 import org.apache.commons.pool2.PooledObject;
 import org.apache.commons.pool2.impl.DefaultPooledObject;

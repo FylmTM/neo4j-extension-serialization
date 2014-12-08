@@ -1,11 +1,8 @@
-package me.vrublevsky.neo4j.extension.kryo.rest;
+package me.vrublevsky.neo4j.extension.serialization.kryo.rest;
 
-import me.vrublevsky.neo4j.extension.kryo.serialization.ExecutionResultSerializer;
+import me.vrublevsky.neo4j.extension.serialization.kryo.ExecutionResultSerializer;
 import org.neo4j.cypher.javacompat.ExecutionEngine;
-import org.neo4j.cypher.javacompat.ExtendedExecutionResult;
 import org.neo4j.graphdb.GraphDatabaseService;
-import org.neo4j.server.rest.transactional.Statement;
-import org.neo4j.server.rest.transactional.StatementDeserializer;
 import org.neo4j.server.rest.transactional.TransactionFacade;
 
 import javax.ws.rs.POST;
@@ -17,7 +14,6 @@ import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
 import javax.ws.rs.core.StreamingOutput;
 import java.io.InputStream;
-import java.util.Map;
 
 @Path("/transaction")
 public class TransactionalCypherResource {
